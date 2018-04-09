@@ -8,7 +8,7 @@ from algorithms.csp import *
 gb = GridBuilder(GRID_7_7)
 gb.build_as_words_list()
 
-#loading dictionary with necessary elements
+#loading dictionary with necessary elements and methods
 dictionary = DictionaryCollection("resources/words.txt")
 dictionary.load(gb.words_list)
 
